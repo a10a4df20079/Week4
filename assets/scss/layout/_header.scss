@@ -1,4 +1,63 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.navBar{
+  border: 1px solid black;
+	padding: 16px 0 16px 0;
+
+	@media(max-width: 768px){
+	padding-bottom: 0;
+	}
+}
+.bg-primary{
+	background-color: $primary
+}
+.navbar-wrap{
+	display: flex;
+	justify-content: space-between;
+
+	@media(max-width: 768px){
+	flex-direction: column;
+	padding-left: 0;
+	padding-right: 0;
+	max-width: 100%;
+	}
+}
+.navBar-logo img{
+  @media (max-width: 375px){
+    padding-left: 10px;
+  }
+}
+.list{
+      display: flex;
+      align-items: center;
+    
+      @media(max-width: 768px){
+        flex-wrap: wrap;
+      }
+      .navbar-item{
+        height: 100%;
+      
+        @media(max-width: 768px){
+        width: 50%;
+        margin-left: 0;
+        }
+      }
+      .navbar-item:hover{
+        background-color: #ffffff;
+      }
+      .navbar-link{
+        height: 100%;
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 8px 32px;
+        font-size: 20px;
+      
+        @media(max-width: 768px){
+        font-size: 16px;
+        text-align: center;
+        padding: 12px 0;
+        }
+      }
+      .navbar-link:hover{
+        color: #9F1213;
+      }
 }

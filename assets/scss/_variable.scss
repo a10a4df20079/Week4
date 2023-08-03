@@ -1,0 +1,64 @@
+
+$primary:#AA0601;
+
+.container{
+	max-width: 1320px;
+	margin: 0 auto;
+	padding:0 12px;
+
+	@media(max-width: 768px){
+	max-width: 720px;
+	}
+	@media (max-width: 375px){
+    max-width: 372px;
+  	}
+}
+/*間距*/
+.df{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.mr-22{
+    margin-right: 22px;
+}
+.dpb{
+    display: block;
+}
+.pd{
+    padding: 8px 10px;
+}
+.mt-33{
+	margin-top: 33px;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-7{
+	width: 58.33%;
+}
+.pb-8{
+	padding-bottom: 8px;
+}
+.fz-20{
+	font-size: 20px;
+}
+.fz-16{
+	font-size: 16px;
+}
+.mt-32{
+	margin-top: 32px;
+}
+.mb-80{
+	margin-bottom: 80px;
+}
+/*文字*/
+h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+h3{
+	font-size: 20px;
+	font-weight: bold;
+}

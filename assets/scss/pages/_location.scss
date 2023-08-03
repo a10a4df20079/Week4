@@ -1,0 +1,115 @@
+
+
+h1{
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 96px;
+	padding-left: 16px;
+	border-left: 8px #9F1213 solid;
+	line-height: 72px;
+}
+h3{
+	color: #212529;
+}
+
+
+
+/*main*/
+
+.which{
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+
+	h3{
+	font-size: 24px;
+	margin-right: 16px;
+	}
+}
+
+.which{
+	select{
+		padding: 2px;
+		appearance:none;
+	  -moz-appearance:none;
+	  -webkit-appearance:none;
+	  }
+	  
+}
+
+
+.content-main{
+	display: flex;
+
+	@media(max-width: 768px){
+		flex-direction: column;	
+	}
+
+	.content-list{
+		width: 41.66%;
+		@media(max-width: 768px){
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		}
+		@media(max-width: 375px){
+			width: 100%;
+			flex-direction: column;	
+		}
+		.content-info{
+		border: #00000020 1px solid;
+		padding: 16px 0 16px 0;
+		}
+		li{
+		font-size: 20px;
+		margin-bottom: 8px;
+		color: #212529;
+		margin-left: 24px;	
+		}
+		.material-symbols-outlined{
+			margin-right: 15px;
+		}
+		img{
+			@media(max-width: 768px){
+			background:url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/store-1.png");
+			width: 48%;
+			}
+			@media(max-width: 375px){
+				width: 100%;
+			}
+		}
+		h3{
+			font-size: 24px;
+		border: #00000020 1px solid;
+		line-height: 36px;
+		padding: 8px 0 8px 24px;
+		}		
+	}
+}
+
+
+.content-map{	
+	padding-left: 20px;
+	@media(max-width: 768px){
+		width: 100%;
+		padding-left: 0px;
+		margin-top: 26px;
+	}
+	}
+
+.ml-27{
+	margin-left: 27px;
+}
+.df{
+	display: flex;
+}
+.aic{
+	align-items: center;
+}
+
+.mb-80{
+	margin-bottom: 80px;
+}
+.mr-22{
+	margin-right: 22px;
+}
